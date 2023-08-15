@@ -44,11 +44,11 @@ To run this project, you will need to add the following environment variables to
 
 ```http
 POST /images 
-POST images/images
-GET images?path
-POST images/edit
-POST images/edit/compose
-DELETE images?path
+POST /images/images
+GET /images?path
+POST /images/edit
+POST /images/edit/compose
+DELETE /images?path
 ```
 
 
